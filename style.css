@@ -1,0 +1,49 @@
+body {margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table-menu {
+    background-color: gray;
+}
+.start, .table-menu, .inform, .news, .news2 {
+    margin: 0 auto;
+    width: 1200px;
+}
+.start {
+    background: url("../img/banner.png");
+}
+.table-menu td, .start td, a {
+    text-align: center;
+    color: white;
+}
+a {
+    text-decoration: none;
+    /* подчеркивание текста */
+}
+td.logo {
+    text-align: left;
+}
+.inform td, .news {
+    text-align: center;
+    font-weight: lighter;
+    size: 10px;
+    color: #999999;
+}
+.inform h3 {
+    color: #6DC72A;
+    text-align: center;
+    font-weight: 700;}
+
+.news h3, .date {
+    color: #6DC72A;
+}
+.news {
+    text-align: center;
+    
+}
+.news2 td{
+    color: #999999;
+}
+.table-menu tr td+td  {
+    text-align: left;
+}
+/* выравнивание второй колонки таблицы */
