@@ -76,6 +76,10 @@ td.logo {
     margin-top: 50px;
     width: 900px;
 }
+.submit {
+   width: 100%;
+   text-align: center;
+}
 .form input {
 margin: 10px 20px;
 text-align: center;
