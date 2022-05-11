@@ -39,7 +39,7 @@ td.logo {
 .news h3, .date {
     color: #6DC72A;
 }
-.news {
+.news p{
     text-align: center;
     
 }
@@ -105,9 +105,8 @@ input[type="submit"] {
   background: white;
   box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
 }
-.video h3, p {
+.video h3, .video p {
 text-align: left;
-margin-left: 20px;
 }
 .red {
     color: red;
